@@ -1,3 +1,4 @@
+# credo:disable-for-next-line
 defmodule KV.MixProject do
   use Mix.Project
 
@@ -6,6 +7,7 @@ defmodule KV.MixProject do
       app: :kv,
       version: "0.1.0",
       elixir: "~> 1.10.1",
+      # credo:disable-for-next-line
       start_permanent: Mix.env() == :prod,
       deps: deps()
     ]
@@ -23,7 +25,7 @@ defmodule KV.MixProject do
     [
       {:credo, "~> 1.2", only: [:dev, :test], runtime: false},
       {:credo_naming, "~> 0.4", only: [:dev, :test], runtime: false},
-      {:credo_contrib, "~> 0.2.0", only: [:dev, :test], runtime: false},
+      {:credo_contrib, "~> 0.2.0", only: [:dev, :test], runtime: false}
     ]
   end
 end

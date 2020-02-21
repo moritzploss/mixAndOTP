@@ -22,6 +22,12 @@ Format the code:
 
     mix format
 
+Run the linter:
+
+    mix credo --strict --all
+
+## Working with `iex`
+
 Start an `iex` session inside the project:
 
     iex -S mix
