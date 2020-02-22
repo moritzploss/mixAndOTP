@@ -8,7 +8,7 @@ This repo contains code related to the following `elixir` tutorial:
 
 Install the dependencies:
 
-    mix deps.get/
+    mix deps.get
 
 Compile the project:
 
