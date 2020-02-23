@@ -112,7 +112,7 @@
            max_length: 80
          ]},
         {Credo.Check.Readability.ModuleAttributeNames, []},
-        {Credo.Check.Readability.ModuleDoc, []},
+        {Credo.Check.Readability.ModuleDoc, false},
         {Credo.Check.Readability.ModuleNames, []},
         {Credo.Check.Readability.ParenthesesInCondition, []},
         {Credo.Check.Readability.ParenthesesOnZeroArityDefs, []},
@@ -176,7 +176,7 @@
         {Credo.Check.Design.DuplicatedCode, []},
         {Credo.Check.Readability.AliasAs, []},
         {Credo.Check.Readability.MultiAlias, []},
-        {Credo.Check.Readability.Specs, []},
+        {Credo.Check.Readability.Specs, false},
         {Credo.Check.Readability.SinglePipe, []},
         {Credo.Check.Refactor.ABCSize, []},
         {Credo.Check.Refactor.AppendSingleItem, []},
