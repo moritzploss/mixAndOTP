@@ -1,4 +1,4 @@
-![Tests](https://github.com/moritzploss/mixAndOTP/workflows/Elixir%20CI/badge.svg)
+![Tests](https://github.com/moritzploss/mixAndOTP/workflows/Tests/badge.svg)
 
 # Mix and OTP
 
