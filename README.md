@@ -1,3 +1,5 @@
+![Tests](https://github.com/moritzploss/mixAndOTP/workflows/Elixir%20CI/badge.svg)
+
 # Mix and OTP
 
 This repo contains code related to the following `elixir` tutorial:
