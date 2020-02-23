@@ -11,7 +11,7 @@ defmodule KV.Registry do
   end
 
   @doc """
-  Loops up the bucket pid for `name` stored in `server`.
+  Looks up the bucket pid for `name` stored in `server`.
   Returns `{:ok, pid}` if the bucket exists, `:error` otherwise.
   """
   def lookup(server, name) do
